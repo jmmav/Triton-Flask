@@ -44,7 +44,7 @@ void loop(){
     sens_9_val = analogRead(sens_9);
     sens_10_val = analogRead(sens_10);
 
-    Serial.println(sens_1_val+', '+sens_2_val+', '+sens_3_val+', '+sens_4_val+
+    Serial.println('P, '+sens_1_val+', '+sens_2_val+', '+sens_3_val+', '+sens_4_val+
                     ', '+sens_5_val+', '+sens_6_val+', '+sens_7_val+', '+sens_8_val+', '+
                     sens_9_val+', '+sens_10_val);
     
